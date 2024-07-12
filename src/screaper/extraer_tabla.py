@@ -1,80 +1,90 @@
+import requests
+import re
 import time
+import json
+import os 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+from selenium.common.exceptions import StaleElementReferenceException
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
-# Configuración del WebDriver
-driver = webdriver.Chrome()
-
-# Paso 1: Navegar a la página
-url = 'https://app.cfe.mx/Aplicaciones/CCFE/Tarifas/TarifasCRECasa/Tarifas/Tarifa1.aspx'
-driver.get(url)
-
-# Esperar a que la página cargue completamente
-time.sleep(3)
-
-# Paso 2: Capturar los <option> de <select id='ContentPlaceHolder1_Fecha_ddAnio'>
-anio_select = Select(driver.find_element(By.ID, 'ContentPlaceHolder1_Fecha_ddAnio'))
-anio_options = {option.get_attribute('value'): option.text for option in anio_select.options if option.get_attribute('value') != '0'}
-
-# Paso 3: Capturar los <option> de <select id='ContentPlaceHolder1_MesVerano1_ddMesConsulta'>
-mes_select = Select(driver.find_element(By.ID, 'ContentPlaceHolder1_MesVerano1_ddMesConsulta'))
-mes_options = {option.get_attribute('value'): option.text for option in mes_select.options if option.get_attribute('value') != '0'}
-
-# Inicializar el diccionario principal
-data = {}
-
-# Paso 4: Recorrer las combinaciones de <option> y extraer la tabla correspondiente
-for anio_value, anio_text in anio_options.items():
-    data[anio_text] = {}
-    anio_select.select_by_value(anio_value)
+def GetsUrls():
+    url = 'https://app.cfe.mx/Aplicaciones/CCFE/Tarifas/TarifasCRECasa/Casa.aspx'
+    req = requests.get(url)
+    soup = BeautifulSoup(req.text,'lxml')
     
-    for mes_value, mes_text in mes_options.items():
-        mes_select.select_by_value(mes_value)
-        time.sleep(10)  # Esperar a que la tabla se actualice
+    div = soup.find('div',{'class':'col-xs-12'})
+    links = div.find_all('a')
+    
+    Urls={}
+    
+    for link in links:
+        name ='Tarifa '+link.text.strip()
+        href = link['href']
+        full_url = urljoin(url,href)
+        Urls[name] = full_url
+    
+    return Urls
+
+def CreateJsonData():
+    links = GetsUrls()
+    # configuracion del WebDriver
+    driver = webdriver.Chrome()
+    
+    data = {}
+    
+    for name,url in links.items():
+        driver.get(url)
         
-        # Obtener el HTML actualizado
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        time.sleep(5)
         
-        # Encontrar la tabla actualizada
-        temporada_table = soup.find('table', {'id': 'ContentPlaceHolder1_TemporadaFV'})
+        Years_select = Select(driver.find_element(By.ID,'ContentPlaceHolder1_Fecha_ddAnio'))
+        Years_options = {option.get_attribute('value'): option.text for option in Years_select.options if option.get_attribute('value') != '0'}
         
-        if temporada_table:
-            data[anio_text][mes_text] = {}
-            rows = temporada_table.find_all('tr')
+        Month_select = Select(driver.find_element(By.ID,'ContentPlaceHolder1_MesVerano1_ddMesConsulta'))
+        Month_options = {option.get_attribute('value'): option.text for option in Month_select.options if option.get_attribute('value') != '0'}
+        
+        for Year_value,Year_text in Years_options.items():
+            data[Year_text] = {}
             
-            for row in rows:
-                table = row.find('table', {'align': 'center'})
-                
-                if table:
-                    tbody = table.find('tbody')
+            for Month_value, Month_text in Month_options.items():
+                try:
+                    # Seleccionar el año
+                    Years_select = Select(driver.find_element(By.ID,'ContentPlaceHolder1_Fecha_ddAnio'))
+                    Years_select.select_by_value(Year_value)
                     
-                    if tbody:
-                        tr_list = tbody.find_all('tr')
+                    # Seleccionar el mes
+                    Month_select = Select(driver.find_element(By.ID,'ContentPlaceHolder1_MesVerano1_ddMesConsulta'))
+                    Month_select.select_by_value(Month_value)
+                    
+                    time.sleep(10)
+                    
+                    soup = BeautifulSoup(driver.page_source,'html.parser')
+                    
+                    season_table = soup.find('table',{'id':'ContentPlaceHolder1_TemporadaFV'})
+                    
+                    if season_table:
+                        data[Year_text][Month_text] = {}
+                        rows = season_table.find_all('tr')
                         
-                        for tr in tr_list:
-                            tds = tr.find_all('td')
-                            
-                            if len(tds) >= 3:
-                                key = tds[0].find('b').text.strip() if tds[0].find('b') else 'N/A'
-                                value = tds[1].text.strip() if tds[1] else 'N/A'
-                                condition = tds[2].text.strip() if tds[2] else 'N/A'
+                        for row in rows:
+                            cols = row.find_all('td')
+                            if len(cols) == 3:
+                                consumo_tipo = cols[0].get_text(strip=True)
+                                tarifa = cols[1].get_text(strip=True)
+                                descripcion = cols[2].get_text(strip=True)
                                 
-                                data[anio_text][mes_text][key] = {
-                                    'value': value,
-                                    'condition': condition
+                                data[Year_text][Month_text][consumo_tipo] = {
+                                    'Tarifa':tarifa,
+                                    'descripcion':descripcion
                                 }
-                    else:
-                        print(f"No se encontró el tbody en la tabla para año {anio_text} y mes {mes_text}.")
-                else:
-                    print(f"No se encontró la tabla con class 'table' para año {anio_text} y mes {mes_text}.")
-        else:
-            print(f"No se encontró la tabla con id 'ContentPlaceHolder1_TemporadaFV' para año {anio_text} y mes {mes_text}.")
 
-# Cerrar el navegador
-driver.quit()
-
-# Imprimir el diccionario resultante
-import pprint
-pprint.pprint(data)
+                except StaleElementReferenceException:
+                    print(f"Elemento obsoleto encontrado. Reintentando la selección para año {Year_text} y mes {Month_text}.")
+    
+    with open(f'{name}.json','w',encoding='utf-8') as json_file:
+        json.dump(data,json_file,ensure_ascii=False,indent=4)
+                    
+        

@@ -12,7 +12,7 @@ div = soup.find('div',{'class':'col-xs-12'})
 links = div.find_all('a')
 
 for link in links:
-    name = link.text.strip()  # .strip() para eliminar espacios en blanco
+    name = 'Tarifa '+link.text.strip()  # .strip() para eliminar espacios en blanco
     href = link['href']
     full_url = urljoin(URL, href)  # Combinar URL base con URL relativa
     print(f'Nombre: {name}, URL: {full_url}')
