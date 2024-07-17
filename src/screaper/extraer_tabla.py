@@ -10,6 +10,7 @@ from selenium.common.exceptions import StaleElementReferenceException
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
+
 def GetsUrls():
     url = 'https://app.cfe.mx/Aplicaciones/CCFE/Tarifas/TarifasCRECasa/Casa.aspx'
     req = requests.get(url)
@@ -21,49 +22,54 @@ def GetsUrls():
     Urls={}
     
     for link in links:
-        name ='Tarifa '+link.text.strip()
+        name ='Tarifa_'+link.text.strip()
         href = link['href']
         full_url = urljoin(url,href)
         Urls[name] = full_url
     
     return Urls
 
-def CreateJsonData():
-    links = GetsUrls()
-    # configuracion del WebDriver
+def Tarifa_1_JsonData():
+    link = GetsUrls()
+    link =  {key: value for key, value in link.items() if key == 'Tarifa_1'}
+    # Configuración del WebDriver
     driver = webdriver.Chrome()
     
-    data = {}
+    # Crear la carpeta para guardar los archivos JSON
+    output_dir = os.path.join('src', 'screaper', 'tarifas_json')
+    os.makedirs(output_dir, exist_ok=True)
     
-    for name,url in links.items():
+    for name, url in link.items():
         driver.get(url)
         
         time.sleep(5)
         
-        Years_select = Select(driver.find_element(By.ID,'ContentPlaceHolder1_Fecha_ddAnio'))
+        Years_select = Select(driver.find_element(By.ID, 'ContentPlaceHolder1_Fecha_ddAnio'))
         Years_options = {option.get_attribute('value'): option.text for option in Years_select.options if option.get_attribute('value') != '0'}
         
-        Month_select = Select(driver.find_element(By.ID,'ContentPlaceHolder1_MesVerano1_ddMesConsulta'))
+        Month_select = Select(driver.find_element(By.ID, 'ContentPlaceHolder1_MesVerano1_ddMesConsulta'))
         Month_options = {option.get_attribute('value'): option.text for option in Month_select.options if option.get_attribute('value') != '0'}
         
-        for Year_value,Year_text in Years_options.items():
+        data = {}  # Inicializa el diccionario para cada tarifa
+        
+        for Year_value, Year_text in Years_options.items():
             data[Year_text] = {}
             
             for Month_value, Month_text in Month_options.items():
                 try:
                     # Seleccionar el año
-                    Years_select = Select(driver.find_element(By.ID,'ContentPlaceHolder1_Fecha_ddAnio'))
+                    Years_select = Select(driver.find_element(By.ID, 'ContentPlaceHolder1_Fecha_ddAnio'))
                     Years_select.select_by_value(Year_value)
                     
                     # Seleccionar el mes
-                    Month_select = Select(driver.find_element(By.ID,'ContentPlaceHolder1_MesVerano1_ddMesConsulta'))
+                    Month_select = Select(driver.find_element(By.ID, 'ContentPlaceHolder1_MesVerano1_ddMesConsulta'))
                     Month_select.select_by_value(Month_value)
                     
                     time.sleep(10)
                     
-                    soup = BeautifulSoup(driver.page_source,'html.parser')
+                    soup = BeautifulSoup(driver.page_source, 'html.parser')
                     
-                    season_table = soup.find('table',{'id':'ContentPlaceHolder1_TemporadaFV'})
+                    season_table = soup.find('table', {'id': 'ContentPlaceHolder1_TemporadaFV'})
                     
                     if season_table:
                         data[Year_text][Month_text] = {}
@@ -77,14 +83,21 @@ def CreateJsonData():
                                 descripcion = cols[2].get_text(strip=True)
                                 
                                 data[Year_text][Month_text][consumo_tipo] = {
-                                    'Tarifa':tarifa,
-                                    'descripcion':descripcion
+                                    'Tarifa': tarifa,
+                                    'descripcion': descripcion
                                 }
 
                 except StaleElementReferenceException:
                     print(f"Elemento obsoleto encontrado. Reintentando la selección para año {Year_text} y mes {Month_text}.")
-    
-    with open(f'{name}.json','w',encoding='utf-8') as json_file:
-        json.dump(data,json_file,ensure_ascii=False,indent=4)
-                    
         
+        # Guardar los datos en un archivo JSON
+        file_name = f"{name.replace(' ', '_')}.json"
+        file_path = os.path.join(output_dir, file_name)
+        
+        with open(file_path, 'w', encoding='utf-8') as json_file:
+            json.dump(data, json_file, ensure_ascii=False, indent=4)
+    
+    driver.quit()
+
+
+

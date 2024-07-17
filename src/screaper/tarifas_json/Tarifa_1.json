@@ -1,0 +1,1362 @@
+{
+    "2024": {
+        "ENERO": {
+            "Consumo básico": {
+                "Tarifa": "1.015",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.239",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.62",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "FEBRERO": {
+            "Consumo básico": {
+                "Tarifa": "1.019",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.243",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.633",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MARZO": {
+            "Consumo básico": {
+                "Tarifa": "1.023",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.247",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.646",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "ABRIL": {
+            "Consumo básico": {
+                "Tarifa": "1.027",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.251",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.659",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MAYO": {
+            "Consumo básico": {
+                "Tarifa": "1.031",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.255",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.672",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JUNIO": {
+            "Consumo básico": {
+                "Tarifa": "1.035",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.259",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.685",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JULIO": {
+            "Consumo básico": {
+                "Tarifa": "1.039",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.263",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.698",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "AGOSTO": {
+            "Consumo básico": {
+                "Tarifa": "1.043",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.267",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.711",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "SEPTIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "1.047",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.271",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.724",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "OCTUBRE": {
+            "Consumo básico": {
+                "Tarifa": "1.051",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.275",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.737",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "NOVIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "1.055",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.280",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.75",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "DICIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "1.059",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.285",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.763",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        }
+    },
+    "2023": {
+        "ENERO": {
+            "Consumo básico": {
+                "Tarifa": "0.945",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.153",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.367",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "FEBRERO": {
+            "Consumo básico": {
+                "Tarifa": "0.951",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.160",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.388",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MARZO": {
+            "Consumo básico": {
+                "Tarifa": "0.957",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.167",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.409",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "ABRIL": {
+            "Consumo básico": {
+                "Tarifa": "0.963",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.174",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.43",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MAYO": {
+            "Consumo básico": {
+                "Tarifa": "0.969",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.181",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.452",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JUNIO": {
+            "Consumo básico": {
+                "Tarifa": "0.975",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.188",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.474",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JULIO": {
+            "Consumo básico": {
+                "Tarifa": "0.981",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.195",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.496",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "AGOSTO": {
+            "Consumo básico": {
+                "Tarifa": "0.987",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.203",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.518",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "SEPTIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.993",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.211",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.54",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "OCTUBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.999",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.219",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.562",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "NOVIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "1.005",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.227",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.584",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "DICIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "1.011",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.235",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.607",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        }
+    },
+    "2022": {
+        "ENERO": {
+            "Consumo básico": {
+                "Tarifa": "0.882",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.073",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.134",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "FEBRERO": {
+            "Consumo básico": {
+                "Tarifa": "0.887",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.079",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.153",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MARZO": {
+            "Consumo básico": {
+                "Tarifa": "0.892",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.085",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.172",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "ABRIL": {
+            "Consumo básico": {
+                "Tarifa": "0.897",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.091",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.191",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MAYO": {
+            "Consumo básico": {
+                "Tarifa": "0.902",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.097",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.21",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JUNIO": {
+            "Consumo básico": {
+                "Tarifa": "0.907",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.104",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.229",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JULIO": {
+            "Consumo básico": {
+                "Tarifa": "0.912",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.111",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.248",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "AGOSTO": {
+            "Consumo básico": {
+                "Tarifa": "0.917",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.118",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.267",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "SEPTIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.922",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.125",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.286",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "OCTUBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.927",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.132",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.306",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "NOVIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.933",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.139",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.326",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "DICIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.939",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.146",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.346",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        }
+    },
+    "2021": {
+        "ENERO": {
+            "Consumo básico": {
+                "Tarifa": "0.855",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.034",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.026",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "FEBRERO": {
+            "Consumo básico": {
+                "Tarifa": "0.857",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.037",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.034",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MARZO": {
+            "Consumo básico": {
+                "Tarifa": "0.859",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.040",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.042",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "ABRIL": {
+            "Consumo básico": {
+                "Tarifa": "0.861",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.043",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.05",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MAYO": {
+            "Consumo básico": {
+                "Tarifa": "0.863",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.046",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.058",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JUNIO": {
+            "Consumo básico": {
+                "Tarifa": "0.865",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.049",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.066",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JULIO": {
+            "Consumo básico": {
+                "Tarifa": "0.867",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.052",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.074",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "AGOSTO": {
+            "Consumo básico": {
+                "Tarifa": "0.869",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.055",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.082",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "SEPTIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.871",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.058",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.09",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "OCTUBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.873",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.061",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.098",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "NOVIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.875",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.064",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.106",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "DICIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.877",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.067",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.115",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        }
+    },
+    "2020": {
+        "ENERO": {
+            "Consumo básico": {
+                "Tarifa": "0.831",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.006",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.941",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "FEBRERO": {
+            "Consumo básico": {
+                "Tarifa": "0.833",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.008",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.948",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MARZO": {
+            "Consumo básico": {
+                "Tarifa": "0.835",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.010",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.955",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "ABRIL": {
+            "Consumo básico": {
+                "Tarifa": "0.837",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.012",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.962",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MAYO": {
+            "Consumo básico": {
+                "Tarifa": "0.839",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.014",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.969",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JUNIO": {
+            "Consumo básico": {
+                "Tarifa": "0.841",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.016",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.976",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JULIO": {
+            "Consumo básico": {
+                "Tarifa": "0.843",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.018",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.983",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "AGOSTO": {
+            "Consumo básico": {
+                "Tarifa": "0.845",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.020",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.99",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "SEPTIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.847",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.022",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.997",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "OCTUBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.849",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.025",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.004",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "NOVIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.851",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.028",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.011",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "DICIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.853",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.031",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "3.018",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        }
+    },
+    "2019": {
+        "ENERO": {
+            "Consumo básico": {
+                "Tarifa": "0.796",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.960",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.813",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "FEBRERO": {
+            "Consumo básico": {
+                "Tarifa": "0.799",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.964",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.824",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MARZO": {
+            "Consumo básico": {
+                "Tarifa": "0.802",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.968",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.835",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "ABRIL": {
+            "Consumo básico": {
+                "Tarifa": "0.805",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.972",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.846",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MAYO": {
+            "Consumo básico": {
+                "Tarifa": "0.808",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.976",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.857",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JUNIO": {
+            "Consumo básico": {
+                "Tarifa": "0.811",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.980",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.868",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JULIO": {
+            "Consumo básico": {
+                "Tarifa": "0.814",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.984",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.879",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "AGOSTO": {
+            "Consumo básico": {
+                "Tarifa": "0.817",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.988",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.89",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "SEPTIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.820",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.992",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.901",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "OCTUBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.823",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.996",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.912",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "NOVIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.826",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.000",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.923",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "DICIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.829",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "1.004",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.934",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        }
+    },
+    "2018": {
+        "ENERO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "FEBRERO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MARZO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "ABRIL": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MAYO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JUNIO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JULIO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "AGOSTO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "SEPTIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "OCTUBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "NOVIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "DICIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        }
+    },
+    "2017": {
+        "ENERO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "FEBRERO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MARZO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "ABRIL": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "MAYO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JUNIO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "JULIO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "AGOSTO": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "SEPTIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "OCTUBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "NOVIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        },
+        "DICIEMBRE": {
+            "Consumo básico": {
+                "Tarifa": "0.793",
+                "descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+            },
+            "Consumo intermedio": {
+                "Tarifa": "0.956",
+                "descripcion": "por cada uno de los siguientes 65 (sesenta y cinco) kilowatt-hora."
+            },
+            "Consumo excedente": {
+                "Tarifa": "2.802",
+                "descripcion": "por cada kilowatt-hora adicional a los anteriores."
+            }
+        }
+    }
+}
