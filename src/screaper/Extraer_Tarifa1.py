@@ -36,7 +36,7 @@ def Tarifa_1_JsonData():
     driver = webdriver.Chrome()
     
     # Crear la carpeta para guardar los archivos JSON
-    output_dir = os.path.join('src', 'screaper', 'tarifas_json')
+    output_dir = os.path.join('src', 'import', 'tarifas_json')
     os.makedirs(output_dir, exist_ok=True)
     
     for name, url in link.items():
@@ -50,7 +50,7 @@ def Tarifa_1_JsonData():
         Month_select = Select(driver.find_element(By.ID, 'ContentPlaceHolder1_MesVerano1_ddMesConsulta'))
         Month_options = {option.get_attribute('value'): option.text for option in Month_select.options if option.get_attribute('value') != '0'}
         
-        data = {}  # Inicializa el diccionario para cada tarifa
+        data = []  # Inicializa el diccionario para cada tarifa
         
         for Year_value, Year_text in Years_options.items():
             data[Year_text] = {}
@@ -72,7 +72,7 @@ def Tarifa_1_JsonData():
                     season_table = soup.find('table', {'id': 'ContentPlaceHolder1_TemporadaFV'})
                     
                     if season_table:
-                        data[Year_text][Month_text] = {}
+                        data[Year_value][Month_value] = {}
                         rows = season_table.find_all('tr')
                         
                         for row in rows:
@@ -82,7 +82,7 @@ def Tarifa_1_JsonData():
                                 tarifa = cols[1].get_text(strip=True)
                                 descripcion = cols[2].get_text(strip=True)
                                 
-                                data[Year_text][Month_text][consumo_tipo] = {
+                                data[Year_value][Month_value][consumo_tipo] = {
                                     'Tarifa': tarifa,
                                     'descripcion': descripcion
                                 }

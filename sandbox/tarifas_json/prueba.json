@@ -1,0 +1,146 @@
+[
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "ENERO",
+        "ConsumoTipo": "Consumo básico",
+        "Tarifa": "1.015",
+        "Descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "ENERO",
+        "ConsumoTipo": "Consumo intermedio",
+        "Tarifa": "1.239",
+        "Descripcion": "por cada uno de los siguientes 100 (cien) kilowatt-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "ENERO",
+        "ConsumoTipo": "Consumo excedente",
+        "Tarifa": "3.62",
+        "Descripcion": "por cada kilowatt-hora adicional a los anteriores."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "AGOSTO",
+        "ConsumoTipo": "Consumo básico",
+        "Tarifa": "1.043",
+        "Descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "AGOSTO",
+        "ConsumoTipo": "Consumo intermedio",
+        "Tarifa": "1.267",
+        "Descripcion": "por cada uno de los siguientes 100 (cien) kilowatt-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "AGOSTO",
+        "ConsumoTipo": "Consumo excedente",
+        "Tarifa": "3.711",
+        "Descripcion": "por cada kilowatt-hora adicional a los anteriores."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "SEPTIEMBRE",
+        "ConsumoTipo": "Consumo básico",
+        "Tarifa": "1.047",
+        "Descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "SEPTIEMBRE",
+        "ConsumoTipo": "Consumo intermedio",
+        "Tarifa": "1.271",
+        "Descripcion": "por cada uno de los siguientes 100 (cien) kilowatt-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "SEPTIEMBRE",
+        "ConsumoTipo": "Consumo excedente",
+        "Tarifa": "3.724",
+        "Descripcion": "por cada kilowatt-hora adicional a los anteriores."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "OCTUBRE",
+        "ConsumoTipo": "Consumo básico",
+        "Tarifa": "1.051",
+        "Descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "OCTUBRE",
+        "ConsumoTipo": "Consumo intermedio",
+        "Tarifa": "1.275",
+        "Descripcion": "por cada uno de los siguientes 100 (cien) kilowatt-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "OCTUBRE",
+        "ConsumoTipo": "Consumo excedente",
+        "Tarifa": "3.737",
+        "Descripcion": "por cada kilowatt-hora adicional a los anteriores."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "NOVIEMBRE",
+        "ConsumoTipo": "Consumo básico",
+        "Tarifa": "1.055",
+        "Descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "NOVIEMBRE",
+        "ConsumoTipo": "Consumo intermedio",
+        "Tarifa": "1.280",
+        "Descripcion": "por cada uno de los siguientes 100 (cien) kilowatt-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "NOVIEMBRE",
+        "ConsumoTipo": "Consumo excedente",
+        "Tarifa": "3.75",
+        "Descripcion": "por cada kilowatt-hora adicional a los anteriores."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "DICIEMBRE",
+        "ConsumoTipo": "Consumo básico",
+        "Tarifa": "1.059",
+        "Descripcion": "por cada uno de los primeros 75 (setenta y cinco) kilowatts-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "DICIEMBRE",
+        "ConsumoTipo": "Consumo intermedio",
+        "Tarifa": "1.285",
+        "Descripcion": "por cada uno de los siguientes 100 (cien) kilowatt-hora."
+    },
+    {
+        "Año": "2024",
+        "MesVerano": "02",
+        "Mes": "DICIEMBRE",
+        "ConsumoTipo": "Consumo excedente",
+        "Tarifa": "3.763",
+        "Descripcion": "por cada kilowatt-hora adicional a los anteriores."
+    }
+]

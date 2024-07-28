@@ -1,4 +1,4 @@
-from extraer_tabla import GetsUrls
+from screaper.Extraer_Tarifa1 import GetsUrls
 import requests
 import re
 import time
@@ -68,9 +68,10 @@ def Tarifas_JsonData():
                             if season_table:
                                 data[Year_text][Summer_Month_value][Month_value] = {}
                                 rows = season_table.find_all('tr')
-                                
+                                time.sleep(10)
                                 for row in rows:
                                     cols = row.find_all('td')
+                                    time.sleep(10)
                                     if len(cols) == 3:
                                         consumo_tipo = cols[0].get_text(strip=True)
                                         tarifa = cols[1].get_text(strip=True)
